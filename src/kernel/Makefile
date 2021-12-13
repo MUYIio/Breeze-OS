@@ -1,0 +1,16 @@
+SRC	+= hardirq.c
+SRC	+= softirq.c
+SRC	+= clock.c
+SRC	+= syscall.c
+SRC	+= driver.c
+SRC	+= timer.c
+SRC	+= alarm.c
+SRC	+= walltime.c
+SRC	+= debug.c
+SRC	+= initcall.c
+SRC	+= time.c
+SRC	+= exception.c
+SRC	+= safety.c
+SRC	+= account.c
+SRC	+= permission.c
+SRC	+= config.c

@@ -1,0 +1,140 @@
+# Prerequisites
+*.d
+*.tmp
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+*.disasm
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Image
+*.img
+*.iso
+*.vhd
+*.bin
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.dump
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# develop
+develop/image/
+develop/local/
+
+develop/rom/bin/
+develop/rom/sbin/
+develop/rom/acct/
+develop/bochs/
+
+!develop/rom/tmp/d.img
+
+# linux fixdep
+libs/fixdep
+sbin/fixdep
+bin/fixdep
+src/fixdep
+
+# linux tools
+tools/fatfs/fatfs
+
+# grub2 modules, img
+!tools/grub-2.04/boot/grub/i386-efi/*.mod
+!tools/grub-2.04/boot/grub/i386-efi/*.img
+!tools/grub-2.04/boot/grub/i386-pc/*.mod
+!tools/grub-2.04/boot/grub/i386-pc/*.img
+tools/grub-2.04/efi/boot/bootia32.efi
+
+# dir
+recycle
+
+# need commit to git
+!scripts/fixdep.exe
+
+# system bin
+sbin/init/init
+sbin/login/login
+sbin/netserv/netserv
+
+# /bin
+bin/cat/cat
+bin/cal/cal
+bin/cp/cp
+bin/cpuinfo/cpuinfo
+bin/date/date
+bin/echo/echo
+bin/ls/ls
+bin/mem/mem
+bin/mkdir/mkdir
+bin/mv/mv
+bin/uname/uname
+bin/ps/ps
+bin/rename/rename
+bin/rm/rm
+bin/rmdir/rmdir
+bin/sh/sh
+bin/sys/sys
+bin/tests/tests
+bin/touch/touch
+bin/bash/bash
+bin/hello/hello
+bin/uview/uview
+bin/mp3player/mp3player
+bin/wavplayer/wavplayer
+bin/grep/grep
+bin/cat2/cat2
+bin/archfetch/archfetch
+bin/mount/mount
+bin/unmount/unmount
+bin/mkfs/mkfs
+bin/losetup/losetup
+bin/poweroff/poweroff
+bin/reboot/reboot
+bin/httpd/httpd
+bin/ping/ping
+bin/telnet/telnet
+bin/ifconfig/ifconfig
+
+# ====xbook2 kernel ignore end====

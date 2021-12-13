@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.C": "c",
+        "schedule.h": "c",
+        "task.h": "c",
+        "assert.h": "c",
+        "memory.h": "c"
+    }
+}

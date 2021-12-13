@@ -1,0 +1,14 @@
+SRC	+= task.c
+SRC	+= schedule.c
+SRC	+= rwlock.c
+SRC	+= process.c
+SRC	+= fork.c
+SRC	+= wait.c
+SRC	+= exit.c
+SRC	+= exec.c
+SRC	+= sleep.c
+SRC	+= pthread.c
+SRC	+= mutexqueue.c
+SRC	+= waitqueue.c
+SRC	+= mutexlock.c
+SRC	+= semaphore.c
