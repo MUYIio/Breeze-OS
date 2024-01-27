@@ -39,7 +39,7 @@
   margin-bottom: 2.4rem;
 }
 :root {
-  --site-bg: #f9fafb;
+  --site-bg: #dbdbdb;
   --card: #fff;
   --alpha20: rgba(255,255,255,0.2);
   --alpha50: rgba(255,255,255,0.5);
@@ -60,7 +60,7 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --site-bg: #1c1e21;
+    --site-bg: #5c5c5c;
     --card: #373d43;
     --block: #26292c;
     --block-border: #383d42;
