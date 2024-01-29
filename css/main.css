@@ -1317,14 +1317,17 @@ div.toast.show {
   margin: 0.2rem 0;
 }
 .page-footer .text p {
-  margin: 4px 0;
+  margin: 6px 0;
   line-height: 1.5;
 }
 .page-footer .text a:not([class]) {
   text-decoration: underline;
   font-weight: 500;
 }
-.page-footer .text a:not([class]) .github-badge {
+.center {
+  text-align: center;
+}
+.github-badge {
   display: inline-block;
   border-radius: 4px;
   text-shadow: none;
@@ -1334,49 +1337,49 @@ div.toast.show {
   background-color: #abbac3;
   margin-bottom: 5px;
 }
-.page-footer .text a:not([class]) .github-badge .badge-subject {
+.github-badge .badge-subject {
   display: inline-block;
   background-color: #4d4d4d;
   padding: 4px 4px 4px 6px;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-.page-footer .text a:not([class]) .github-badge .badge-value {
+.github-badge .badge-value {
   display: inline-block;
   padding: 4px 6px 4px 4px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-.page-footer .text a:not([class]) .github-badge .bg-brightgreen {
+.github-badge .bg-brightgreen {
   background-color: #4dc820 !important;
 }
-.page-footer .text a:not([class]) .github-badge .bg-orange {
+.github-badge .bg-orange {
   background-color: #ffa500 !important;
 }
-.page-footer .text a:not([class]) .github-badge .bg-yellow {
+.github-badge .bg-yellow {
   background-color: #d8b024 !important;
 }
-.page-footer .text a:not([class]) .github-badge .bg-blueviolet {
+.github-badge .bg-blueviolet {
   background-color: #8833d7 !important;
 }
-.page-footer .text a:not([class]) .github-badge .bg-pink {
+.github-badge .bg-pink {
   background-color: #f26bae !important;
 }
-.page-footer .text a:not([class]) .github-badge .bg-red {
+.github-badge .bg-red {
   background-color: #e05d44 !important;
 }
-.page-footer .text a:not([class]) .github-badge .bg-blue {
+.github-badge .bg-blue {
   background-color: #007ec6 !important;
 }
-.page-footer .text a:not([class]) .github-badge .bg-lightgrey {
+.github-badge .bg-lightgrey {
   background-color: #9f9f9f !important;
 }
-.page-footer .text a:not([class]) .github-badge .bg-grey,
-.page-footer .text a:not([class]) .github-badge .bg-gray {
+.github-badge .bg-grey,
+.github-badge .bg-gray {
   background-color: #555 !important;
 }
-.page-footer .text a:not([class]) .github-badge .bg-lightgrey,
-.page-footer .text a:not([class]) .github-badge .bg-lightgray {
+.github-badge .bg-lightgrey,
+.github-badge .bg-lightgray {
   background-color: #9f9f9f !important;
 }
 .nav-wrap {
