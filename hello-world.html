@@ -279,18 +279,17 @@
       <div class='title cap theme'>您可能感兴趣的文章</div>
     </section>
     <section class='body'>
-    <div class="related-posts"><a class="item" href="\2024年2月国内ChatGpt3-5升级4-0最新教程.html" title="2024年2月国内ChatGpt3.5升级4.0最新教程"><span class="title">2024年2月国内ChatGpt3.5升级4.0最新教程</span></a></div></section></div>
+    <div class="related-posts"><a class="item" href="\2024年2月国内ChatGpt3-5升级4-0最新教程1.html" title="2024年2月国内ChatGpt3.5升级4.0最新教程1"><span class="title">2024年2月国内ChatGpt3.5升级4.0最新教程1</span></a></div></section></div>
 
 
   <div class="related-wrap md-text" id="comments">
     <section class='header cmt-title cap theme'>
       快来参与讨论吧
     </section>
-    <section class='body cmt-body waline'>
+    <section class='body cmt-body twikoo'>
       
 
-<div id="waline_container" class="waline_thread"><svg class="loading" style="vertical-align:middle;fill:currentColor;overflow:hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2709"><path d="M832 512c0-176-144-320-320-320V128c211.2 0 384 172.8 384 384h-64zM192 512c0 176 144 320 320 320v64C300.8 896 128 723.2 128 512h64z" p-id="2710"></path></svg></div>
-
+<div id="twikoo_container"><svg class="loading" style="vertical-align:middle;fill:currentColor;overflow:hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2709"><path d="M832 512c0-176-144-320-320-320V128c211.2 0 384 172.8 384 384h-64zM192 512c0 176 144 320 320 320v64C300.8 896 128 723.2 128 512h64z" p-id="2710"></path></svg></div>
     </section>
   </div>
 
@@ -486,45 +485,25 @@
 <!-- optional -->
 
   <script>
-  function load_comment(){
-    if(!document.getElementById("waline_container"))return;
-    stellar.loadCSS('https://unpkg.com/@waline/client@2.14.1/dist/waline.css');
-    stellar.loadScript('https://unpkg.com/@waline/client@2.14.1/dist/waline. js', {defer:true}).then(function () {
-      const el = document.getElementById("waline_container");
-      var path = el.getAttribute('comment_id');
-      if (!path) {
-        path = decodeURI(window.location.pathname);
-      }
-      Waline.init(Object.assign({"js":"https://unpkg.com/@waline/client@2.14.1/dist/waline. js","css":"https://unpkg.com/@waline/client@2.14.1/dist/waline.css","serverURL":"http://8.137.107.73:8360","placeholder":"请文明评论呀","avatar":"mm","meta":["nick","mail"],"pageSize":10,"lang":"zh-cn","commentCount":true,"pageview":false,"imageUploader":{"fileName":"file","tokenName":"Authorization","api":"http://8.137.107.73:80","token":"Bearer 1|PXbvbyQ0CQYI7SLosMAYwR37AeTOWpfytRrddevo","resp":"data.links.url"}}, {
-        el: '#waline_container',
-        path: path,
-        
-          imageUploader: function(file) {
-            let headers = new Headers();
-            headers.set('Accept', 'application/json');
-            
-              headers.set('Authorization', 'Bearer 1|PXbvbyQ0CQYI7SLosMAYwR37AeTOWpfytRrddevo')
-            
-            let formData = new FormData();
-            formData.append('file', file);
-            return fetch('http://8.137.107.73:80',{
-              method: 'POST',
-              body: formData,
-              headers: headers
-              }).then((resp) => resp.json())
-                .then((resp) => resp.data.links.url)
-          },
-        
-      }));
+    function load_twikoo() {
+        if (!document.querySelectorAll("#twikoo_container")[0]) return;
+        stellar.loadScript('https://gcore.jsdelivr.net/npm/twikoo@1.6.8/dist/twikoo.all.min.js', {defer: true}).then(function () {
+            const el = document.getElementById("twikoo_container");
+            var path = el.getAttribute('comment_id');
+            if (!path) {
+                path = decodeURI(window.location.pathname);
+            }
+            twikoo.init(Object.assign({"js":"https://gcore.jsdelivr.net/npm/twikoo@1.6.8/dist/twikoo.all.min.js","envId":"http:/8.137.107.73:1024","visitor":true}, {
+                el: '#twikoo_container',
+                path: path,
+            }));
+        });
+    }
+
+    window.addEventListener('DOMContentLoaded', (event) => {
+        load_twikoo();
     });
-  }
-  window.addEventListener('DOMContentLoaded', (event) => {
-    console.log('DOM fully loaded and parsed');
-    load_comment();
-  });
-
 </script>
-
 
 
 
