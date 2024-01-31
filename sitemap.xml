@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chatgptbom.com/chatgpt-register-awesome.html</loc>
+    
+    <lastmod>2024-01-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chatgptbom.com/tags/index.html</loc>
     
     <lastmod>2024-01-30</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>https://chatgptbom.com/categories/index.html</loc>
-    
-    <lastmod>2024-01-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chatgptbom.com/hello-world.html</loc>
     
     <lastmod>2024-01-30</lastmod>
     
@@ -55,6 +55,20 @@
   </url>
 
   
+  <url>
+    <loc>https://chatgptbom.com/tags/4/</loc>
+    <lastmod>2024-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://chatgptbom.com/categories/ChatGpt/</loc>
+    <lastmod>2024-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
