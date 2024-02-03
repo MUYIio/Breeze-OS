@@ -36,7 +36,7 @@
 <meta property="og:image" content="https://chatgptbom.com/assets/chatgpt/copy-open.png">
 <meta property="og:image" content="https://chatgptbom.com/assets/chatgpt/6.png">
 <meta property="article:published_time" content="2024-01-31T15:41:32.000Z">
-<meta property="article:modified_time" content="2024-02-02T16:23:36.817Z">
+<meta property="article:modified_time" content="2024-02-03T04:13:55.954Z">
 <meta property="article:author" content="ChatGPTbom">
 <meta property="article:tag" content="ChatGpt4.0">
 <meta name="twitter:card" content="summary_large_image">
@@ -257,7 +257,7 @@
 
 <div class="bread-nav fs12"><div class="left"><div id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/ChatGpt/">ChatGpt</a></div>
-<div id="post-meta"><span class="author">发布于：</span><span class="created"><time datetime="2024-01-31T15:41:32.000Z">2024-01-31</time></span><span class="updated">，更新于：<time datetime="2024-02-02T16:23:36.817Z">2024-02-03</time></span></div></div>
+<div id="post-meta"><span class="author">发布于：</span><span class="created"><time datetime="2024-01-31T15:41:32.000Z">2024-01-31</time></span><span class="updated">，更新于：<time datetime="2024-02-03T04:13:55.954Z">2024-02-03</time></span></div></div>
 </div>
 <article class="md-text content"><h1 class="article-title"><span>2024年2月国内ChatGpt3.5升级4.0最新教程</span></h1><p>目前AI写作在我们日常生活中几乎必不可少，很多问题都可以直接去问它，今天来给大家讲一下目前升级ChatGPT4.0的教程，下面进入主题，只需要升级4.0的朋友可以直接点击左侧导航跳到对应位置。</p>
 <p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/assets/chatgpt/date.jpg"></p>
@@ -322,10 +322,11 @@
     <section class='header cmt-title cap theme'>
       快来参与讨论吧
     </section>
-    <section class='body cmt-body twikoo'>
+    <section class='body cmt-body waline'>
       
 
-<div id="twikoo_container"><svg class="loading" style="vertical-align:middle;fill:currentColor;overflow:hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2709"><path d="M832 512c0-176-144-320-320-320V128c211.2 0 384 172.8 384 384h-64zM192 512c0 176 144 320 320 320v64C300.8 896 128 723.2 128 512h64z" p-id="2710"></path></svg></div>
+<div id="waline_container" class="waline_thread"><svg class="loading" style="vertical-align:middle;fill:currentColor;overflow:hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2709"><path d="M832 512c0-176-144-320-320-320V128c211.2 0 384 172.8 384 384h-64zM192 512c0 176 144 320 320 320v64C300.8 896 128 723.2 128 512h64z" p-id="2710"></path></svg></div>
+
     </section>
   </div>
 
@@ -521,25 +522,45 @@
 <!-- optional -->
 
   <script>
-    function load_twikoo() {
-        if (!document.querySelectorAll("#twikoo_container")[0]) return;
-        stellar.loadScript('https://cdn.staticfile.org/twikoo/1.6.31/twikoo.all.min.js', {defer: true}).then(function () {
-            const el = document.getElementById("twikoo_container");
-            var path = el.getAttribute('comment_id');
-            if (!path) {
-                path = decodeURI(window.location.pathname);
-            }
-            twikoo.init(Object.assign({"js":"https://cdn.staticfile.org/twikoo/1.6.31/twikoo.all.min.js","envId":"https://apitwi.chatgptbom.com","visitor":true}, {
-                el: '#twikoo_container',
-                path: path,
-            }));
-        });
-    }
-
-    window.addEventListener('DOMContentLoaded', (event) => {
-        load_twikoo();
+  function load_comment(){
+    if(!document.getElementById("waline_container"))return;
+    stellar.loadCSS('https://unpkg.com/@waline/client@2.14.1/dist/waline.css');
+    stellar.loadScript('https://unpkg.com/@waline/client@2.14.1/dist/waline. js', {defer:true}).then(function () {
+      const el = document.getElementById("waline_container");
+      var path = el.getAttribute('comment_id');
+      if (!path) {
+        path = decodeURI(window.location.pathname);
+      }
+      Waline.init(Object.assign({"js":"https://unpkg.com/@waline/client@2.14.1/dist/waline. js","css":"https://unpkg.com/@waline/client@2.14.1/dist/waline.css","serverURL":"waline-eight-nu.vercel.app","placeholder":"请文明评论呀","avatar":"mm","meta":["nick","mail"],"pageSize":10,"lang":"zh-cn","commentCount":true,"pageview":false,"imageUploader":{"fileName":"file","tokenName":"Authorization","api":"http://8.137.107.73:80","token":"Bearer 1|PXbvbyQ0CQYI7SLosMAYwR37AeTOWpfytRrddevo","resp":"data.links.url"}}, {
+        el: '#waline_container',
+        path: path,
+        
+          imageUploader: function(file) {
+            let headers = new Headers();
+            headers.set('Accept', 'application/json');
+            
+              headers.set('Authorization', 'Bearer 1|PXbvbyQ0CQYI7SLosMAYwR37AeTOWpfytRrddevo')
+            
+            let formData = new FormData();
+            formData.append('file', file);
+            return fetch('http://8.137.107.73:80',{
+              method: 'POST',
+              body: formData,
+              headers: headers
+              }).then((resp) => resp.json())
+                .then((resp) => resp.data.links.url)
+          },
+        
+      }));
     });
+  }
+  window.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed');
+    load_comment();
+  });
+
 </script>
+
 
 
 
