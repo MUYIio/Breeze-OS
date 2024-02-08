@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.chatgptbom.com/openai-expedite.html</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chatgptbom.com/login-issue.html</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chatgptbom.com/about/index.html</loc>
+    
+    <lastmod>2024-02-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chatgptbom.com/chatgpt-register-awesome.html</loc>
     
     <lastmod>2024-02-07</lastmod>
@@ -11,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://www.chatgptbom.com/openai-error.html</loc>
+    <loc>https://www.chatgptbom.com/openai-token-error.html</loc>
     
     <lastmod>2024-02-07</lastmod>
     
@@ -47,15 +74,6 @@
   </url>
   
   <url>
-    <loc>https://www.chatgptbom.com/login-issue.html</loc>
-    
-    <lastmod>2024-02-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chatgptbom.com/tags/index.html</loc>
     
     <lastmod>2024-01-30</lastmod>
@@ -74,15 +92,6 @@
   </url>
   
   <url>
-    <loc>https://www.chatgptbom.com/about/index.html</loc>
-    
-    <lastmod>2021-05-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chatgptbom.com/404.html</loc>
     
     <lastmod>2019-09-26</lastmod>
@@ -94,43 +103,43 @@
 
   <url>
     <loc>https://www.chatgptbom.com/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <lastmod>2024-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://www.chatgptbom.com/tags/ChatGpt4-0/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <loc>https://www.chatgptbom.com/tags/%E5%8A%A0%E9%80%9F%E6%B5%8F%E8%A7%88%E5%99%A8/</loc>
+    <lastmod>2024-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.chatgptbom.com/tags/Error/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <lastmod>2024-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.chatgptbom.com/tags/issue/</loc>
-    <lastmod>2024-02-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chatgptbom.com/tags/subscribe/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <loc>https://www.chatgptbom.com/tags/ChatGpt4-0/</loc>
+    <lastmod>2024-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.chatgptbom.com/tags/%E6%B3%A8%E5%86%8C/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <lastmod>2024-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chatgptbom.com/tags/subscribe/</loc>
+    <lastmod>2024-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -139,14 +148,14 @@
   
   <url>
     <loc>https://www.chatgptbom.com/categories/ChatGpt/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <lastmod>2024-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.chatgptbom.com/categories/OnlyFans/</loc>
-    <lastmod>2024-02-07</lastmod>
+    <lastmod>2024-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
