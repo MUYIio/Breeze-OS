@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.chatgptbom.com/sora.html</loc>
+    <loc>https://www.chatgptbom.com/openai-sora.html</loc>
     
-    <lastmod>2024-02-25</lastmod>
+    <lastmod>2024-02-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -172,6 +172,13 @@
   </url>
   
   <url>
+    <loc>https://www.chatgptbom.com/tags/sora/</loc>
+    <lastmod>2024-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chatgptbom.com/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2024-02-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -202,7 +209,21 @@
   </url>
   
   <url>
+    <loc>https://www.chatgptbom.com/categories/OpenAI/</loc>
+    <lastmod>2024-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chatgptbom.com/categories/Midjourney/</loc>
+    <lastmod>2024-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chatgptbom.com/categories/OpenAI/SORA/</loc>
     <lastmod>2024-02-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
