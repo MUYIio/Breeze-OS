@@ -1383,14 +1383,24 @@ div.toast.show {
   background-color: #9f9f9f !important;
 }
 .nav-wrap {
+  position: sticky;
+  position: -webkit-sticky;
+  margin-top: -0.5rem;
+  top: -2px;
+  background: var(--site-bg);
   padding: 0 1rem;
   z-index: 8;
-  top: 0;
-  position: sticky;
-  background: var(--site-bg);
-  position: -webkit-sticky;
   margin-bottom: 1px;
-  margin-top: -8px;
+}
+.nav-wrap:after {
+  content: '';
+  width: calc(100% - 2 * 1rem);
+  height: 2px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+  background: var(--block-hover);
 }
 nav.cap {
   display: flex;
@@ -5270,24 +5280,6 @@ details.toc[open] >div.body section .header+.doc_tree {
 }
 .post-list .post-card .meta.cap span.pin svg {
   height: 1.5rem;
-  color: #f44336;
-}
-.post-list .post-card .meta.cap .cap.tags >span {
-  margin-right: 0.5rem;
-}
-.post-list .post-card .meta.cap .cap.tags svg {
-  margin-right: 0;
-}
-.post-list .post-card .meta.cap >span+span {
-  margin: 0 0.5rem;
-}
-.post-list .post-card .meta.cap >span:nth-child(3) {
-  margin-left: auto;
-}
-.post-list .post-card .meta.cap span.pin img {
-  object-fit: contain;
-}
-.post-list .post-card .meta.cap span.pin svg {
   color: #f44336;
 }
 .post-list .post-card:hover img {
