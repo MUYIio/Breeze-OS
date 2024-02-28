@@ -146,13 +146,6 @@
 
   
   <url>
-    <loc>https://www.chatgptbom.com/tags/Error/</loc>
-    <lastmod>2024-02-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chatgptbom.com/tags/%E5%8A%A0%E9%80%9F%E6%B5%8F%E8%A7%88%E5%99%A8/</loc>
     <lastmod>2024-02-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -161,6 +154,13 @@
   
   <url>
     <loc>https://www.chatgptbom.com/tags/ChatGpt4-0/</loc>
+    <lastmod>2024-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chatgptbom.com/tags/Error/</loc>
     <lastmod>2024-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -225,14 +225,14 @@
   </url>
   
   <url>
-    <loc>https://www.chatgptbom.com/categories/OpenAI/SORA/</loc>
+    <loc>https://www.chatgptbom.com/categories/Midjourney/</loc>
     <lastmod>2024-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.chatgptbom.com/categories/Midjourney/</loc>
+    <loc>https://www.chatgptbom.com/categories/OpenAI/SORA/</loc>
     <lastmod>2024-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
