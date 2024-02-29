@@ -146,7 +146,7 @@
 
   
   <url>
-    <loc>https://www.chatgptbom.com/tags/Error/</loc>
+    <loc>https://www.chatgptbom.com/tags/%E5%8A%A0%E9%80%9F%E6%B5%8F%E8%A7%88%E5%99%A8/</loc>
     <lastmod>2024-02-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -160,14 +160,7 @@
   </url>
   
   <url>
-    <loc>https://www.chatgptbom.com/tags/%E5%8A%A0%E9%80%9F%E6%B5%8F%E8%A7%88%E5%99%A8/</loc>
-    <lastmod>2024-02-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chatgptbom.com/tags/%E6%B3%A8%E5%86%8C/</loc>
+    <loc>https://www.chatgptbom.com/tags/Error/</loc>
     <lastmod>2024-02-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -175,6 +168,13 @@
   
   <url>
     <loc>https://www.chatgptbom.com/tags/subscribe/</loc>
+    <lastmod>2024-02-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chatgptbom.com/tags/%E6%B3%A8%E5%86%8C/</loc>
     <lastmod>2024-02-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
